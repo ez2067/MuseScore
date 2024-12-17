@@ -161,6 +161,7 @@ void EngravingModule::registerUiTypes()
 
 void EngravingModule::onInit(const IApplication::RunMode& mode)
 {
+    // This is a useless comment
     if (mode == IApplication::RunMode::AudioPluginRegistration) {
         return;
     }
